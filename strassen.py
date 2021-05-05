@@ -12,6 +12,7 @@ a22 = int(input("a22: "))
 
 a = np.matrix([[a11, a12], [a21, a22]])
 
+
 print("\n\nPlease input the values of your matrix B\n\n")
 print("Here is how your matrix will be formatted:\n")
 print('[[b11,b12]\n[b21,b22]]\n')
@@ -26,6 +27,7 @@ b = np.matrix([[b11, b12], [b21, b22]])
 
 def strassen(a,b):
 
+    
     a11 = a[0,0]
     a12 = a[0,1]
     a21 = a[1,0]
